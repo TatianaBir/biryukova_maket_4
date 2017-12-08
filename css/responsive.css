@@ -1,0 +1,188 @@
+@media (min-width: 801px) and (max-width: 1200px) {
+	.header-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.header-menu {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.header-logo {
+		margin-bottom: 15px;
+	}
+
+	.logo h1 {
+		margin-left: 0;
+	}
+
+	.banner-text a {
+		width: 30%;
+	}
+
+	.map-info {
+		margin-left: 55%;
+		margin-top: 5%;
+		padding: 1em 2em;
+		max-width: 350px;
+		background-color: #fff;
+		position: relative;
+	}
+
+	.footer-right {
+		padding-bottom: 8em;
+	}
+
+	.footer-left {
+		justify-content: center;
+	}
+	
+}
+
+@media (min-width: 571px) and (max-width: 800px) {
+	.header-content {
+		display: flex;
+		flex-direction: column;		
+		align-items: center;
+	}
+
+	.header-menu {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.logo h1 {
+		margin-left: -30px;
+	}
+
+	.header-logo {
+		margin-bottom: 15px;
+	}
+
+	.menu-list li {
+		margin: 0 5px;
+	}
+
+	.banner-text a {
+		width: 30%;
+	}
+
+	.servise-content-bottom {
+		margin-top: 0;
+	}
+
+	.map-info {
+		margin-left: 75%;
+		margin-top: 5%;
+		padding: 1em 2em;
+		max-width: 350px;
+		background-color: #fff;
+		position: relative;
+	}
+	.footer-left {
+		justify-content: center;
+	}
+}
+
+@media (min-width: 571px) and (max-width: 700px) {
+	.header-menu .menu {
+		display: none;
+	}
+
+	.menu-burger {
+		display: block;
+	}
+
+	.banner-text a {
+		padding: 0.5em 0.5em;
+		width: 40%;
+	}
+
+	iframe {
+		position: relative;
+	}
+
+	.map-info {
+		margin-left: 0;
+		margin-top: 0;
+		padding: 1em 2em;
+		max-width: 100%;
+		background-color: #fff;
+		position: relative;
+	}
+
+	.footer-left {
+		justify-content: center;
+	}
+
+
+}
+
+@media (max-width: 570px) {
+
+	.header-content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.header-menu {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.logo h1 {
+		margin-left: 0;
+	}
+
+	.header-menu .menu {
+		display: none;
+	}
+
+	.menu-burger {
+		display: block;
+	}
+
+	.header-logo {
+		margin-bottom: 15px;
+	}
+
+	.banner-text a {
+		padding: 0.3em;
+		width: 45%;
+	}
+
+	.rw-sentence {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 45px;
+	}
+
+	.rw-words {
+		margin: 10px 0;
+	}
+
+	.servise-content-bottom {
+		margin-top: 0;
+	}
+
+	iframe {
+		position: relative;
+	}
+
+	.map-info {
+		margin-left: 0;
+		margin-top: 0;
+		padding: 1em 2em;
+		max-width: 100%;
+		background-color: #fff;
+		position: relative;
+	}
+
+	.footer-left {
+		justify-content: center;
+	}
+	
+
+}
